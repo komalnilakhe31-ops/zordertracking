@@ -102,7 +102,6 @@ annotate service.Orders with @(
                  Path : 'status/code',
                 ValueCriticalityMapping : [
                     { Value : 'CREATED', Criticality : 'Neutral' },   // default / no color
-                    { Value : 'SHIPMENT', Criticality : 'Critical' }, // yellow
                     { Value : 'PROCESSING', Criticality : 'Positive' }, // green
                     { Value : 'Delivered', Criticality : 'Negative' }   // red
                 ]
